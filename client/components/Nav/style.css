@@ -1,0 +1,58 @@
+nav {
+	width: 100%;
+	display: flex;
+}
+
+nav .user_account_buttons {
+	margin-left: auto;
+	position: relative;
+}
+
+nav .user_account_buttons .button__user_button,
+nav .user_account_buttons .button__login_button,
+nav .user_account_buttons .button__signup_button,
+nav .user_account_buttons .button__signout_button {
+	padding: 1rem;
+}
+
+.signupDropdown {
+	width: 30vw;
+	position: absolute;
+	background: #eee;
+	padding: 1rem;
+	border: #ead7d7 1px solid;
+	z-index: 9;
+}
+
+.signupDropdown .cancel_button,
+.signupDropdown .signup_button {
+	outline: 0;
+	border: 0;
+	width: 50%;
+	height: 50px;
+}
+
+.signupDropdown .cancel_button {
+	background: #ead7d7;
+}
+
+.signupDropdown .signup_button {
+	background: #ead7d7;
+}
+
+.signupDropdown div{
+	width: 100%;
+	display: flex;
+}
+
+.user_account_buttons lable {
+	width: 25%;
+	font-size: 1.1rem;
+	padding: 1rem;
+	text-align: right;
+}
+
+.user_account_buttons input {
+	width: 75%;
+	height: 40px;
+}
